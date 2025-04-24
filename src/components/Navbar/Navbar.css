@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border: 1px solid black;
+}
+
+.navbar__upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.navbar__upper-text {
+    text-align: center;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 2rem;
+}
+.navbar__lower {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+}
