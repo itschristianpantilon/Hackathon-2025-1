@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
-import { prmsuVision } from '../../constants';
+import { prmsuVision, collegeGoals, collegeGoalsPrograms } from '../../constants';
+
 
 function Home() {
   return (
@@ -19,9 +20,16 @@ function Home() {
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>
-
         ))}
+      </div>
 
+      <div className="college__goals">
+          {collegeGoals.map((item, index) =>(
+        <div className="collge__goals-container-1">
+            <h2>{item.title}</h2>
+            <p>{item.description}</p>
+        </div>
+        ))}
       </div>
     </div>
   )
